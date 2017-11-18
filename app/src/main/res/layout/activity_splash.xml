@@ -11,7 +11,10 @@
     android:id="@+id/relativeLayout"
     android:background="@drawable/splash_background"
     tools:context="com.example.yashladha.android_seller.SplashActivity">
-
+<ImageView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:id="@+id/imageView1"/>
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -21,7 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="120dp"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -35,7 +38,7 @@ HatSphere Universe!!!"
         android:textColor="@android:color/holo_purple"
         android:layout_below="@+id/logo"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="30dp" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -43,6 +46,6 @@ HatSphere Universe!!!"
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_below="@+id/tvYou"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp" />
 
 </RelativeLayout>
